@@ -1,7 +1,7 @@
 # STM32 to ESP32 USB-to-UART Hardware Flasher
 
 A hardware bridge firmware that configures an **STM32F407VE** as a USB Virtual COM Port (CDC Class) to program an **ESP32** board with a damaged or unpopulated onboard USB-to-Serial interface.
-
+> **Note:** This is a vibe coding project developed with an AI agent as a co-coder.
 ## Overview
 
 When an ESP32's micro-USB port or USB-to-UART chip fails, standard host flashing utilities (`esptool`, Arduino IDE, PlatformIO) lose connectivity. This project turns an STM32 into a custom serial passthrough bridge.
